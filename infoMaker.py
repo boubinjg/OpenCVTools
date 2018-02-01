@@ -6,7 +6,7 @@ from os.path import isfile, join
 import sys 
 
 parser = argparse.ArgumentParser()
-parser.add_argument('dir', help='The directory of your negative samples')
+parser.add_argument('dir', help='The directory of your positive samples')
 parser.add_argument('width', help='width of your new sample')
 parser.add_argument('height', help='height of your new sample')
 
